@@ -1,0 +1,42 @@
+.page-content {
+  position: relative;
+  z-index: 1; }
+
+.toggle {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  transition: transform 0.3s ease-in-out;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 200px;
+  z-index: 2; }
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  bottom: 0px;
+  left: 0px;
+  width: 130px;
+  padding: 30px;
+  background: #97CAEF;
+  z-index: 0;
+  cursor: pointer; }
+
+li {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
+  margin-bottom: 15px; }
+
+#sidebartoggler {
+  display: none;
+  .toggle left: 200px; }
+  #sidebartoggler .page-content{
+    padding-left: 200px; }
+
+/*# sourceMappingURL=style.css.map */
